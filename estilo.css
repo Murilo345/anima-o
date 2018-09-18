@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff00c3;
+
+}
+div{
+    background-color:#a5ff00;
+    height: 200px;
+    width: 200px;
+    transition: 1s linear;
+
+}
+div:hover{
+    transform: rotate(45deg) translate(400px) scale(-2);
+    background-color: aqua;
+
+}
